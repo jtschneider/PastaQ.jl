@@ -4,3 +4,5 @@ examples/data/
 test/data/
 data/
 Manifest.toml
+.vscode/
+*.h5
