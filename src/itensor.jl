@@ -9,7 +9,7 @@
 
 import Base: isapprox, eltype
 
-using ITensors: AbstractMPS
+using ITensorMPS: AbstractMPS
 
 ######################################################
 # TagSet

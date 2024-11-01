@@ -2,6 +2,18 @@ import Base: copy, getindex, sqrt, length, push!, setindex!
 
 import ITensors:
   # types
+  # MPO,
+  # circuits/gates.jl
+  space,
+  state,
+  # noise,
+  dag,
+  inner,
+  # expect,
+  op
+
+  import ITensorMPS:
+  # types
   MPO,
   # circuits/gates.jl
   space,

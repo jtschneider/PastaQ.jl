@@ -111,7 +111,7 @@ noisemodel = (1 => ("depolarizing", (p = 0.01,)),
 ρ = runcircuit(hilbert, circuit; noise = noisemodel)
 ```
 ```julia
-ITensors.MPO
+ITensorMPS.MPO
 [1] ((dim=2|id=187|"Qubit,Site,n=1")', (dim=2|id=187|"Qubit,Site,n=1"), (dim=4|id=104|"Link,n=1"))
 [2] ((dim=2|id=845|"Qubit,Site,n=2")', (dim=4|id=104|"Link,n=1"), (dim=2|id=845|"Qubit,Site,n=2"), (dim=4|id=668|"Link,n=1"))
 ...

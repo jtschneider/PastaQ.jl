@@ -3,6 +3,7 @@ module PastaQ
 using DataFrames: DataFrame
 using HDF5
 using ITensors
+using ITensorMPS
 using JLD2
 using LinearAlgebra
 using Observers
