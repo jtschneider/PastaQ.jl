@@ -1,5 +1,6 @@
 using PastaQ
 using ITensors
+using ITensorMPS
 using Test
 using LinearAlgebra
 
